@@ -1,0 +1,56 @@
+.footer
+{
+    height: max-content;
+    background: radial-gradient(circle, #1e24d6 0%, #0f151b 100%);
+    position: relative;
+}
+.main-grid
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.heading
+{
+    text-align: center;
+    color: #8278da;
+    font-weight: 900;
+    font-family: 'Mr Dafoe', cursive;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    font-size: 6rem;
+    background-color: white;
+
+}
+.second-grid,.third-grid
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.second-grid a,.third-grid a
+{
+    color: white;
+    display: block;
+    padding: 5px;
+}
+.second-grid h4,.third-grid h4
+{
+    color: white;
+    display: block;
+    padding: 5px;
+}
+.copyright
+{
+    color: white;
+    text-align: center;
+}
+@media only screen and (max-width: 500px) {
+    .main-grid{
+        text-align: center;
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto !important;
+}
+}

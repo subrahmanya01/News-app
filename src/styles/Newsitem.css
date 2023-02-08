@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&family=Mr+Dafoe&display=swap');
+.news-card
+{
+    width:320px;
+    height: 370px;
+    background-color: white;
+    margin:10px;
+    box-sizing: border-box;
+    
+}
+#card-image
+{
+    display: block;
+    width:300px;
+    height: 170px;
+    margin: auto;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+#card-title
+{
+    width:300px;
+    margin: auto;
+    padding-top: 10px;
+    overflow: hidden;
+}
+.card-desc
+{
+    width:300px;
+    margin: auto;
+    color: #1F2667;
+    font-weight: 500;
+    height:13%;
+    overflow: hidden;
+}
+.card-sub
+{
+    width:300px;
+    margin: auto;
+    padding-top: 10px;
+    overflow: hidden;
+   
+
+}
+.card-auth
+{
+    color: #50e3c2;
+}
+.read-more
+{
+    width:300px;
+    height:30px;
+    background-color: rgb(237, 242, 248);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 15px;
+    left: 35px;
+}
+.site-info
+{
+    display: inline-block;
+    width: max-content;
+    height:20px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: #50e3c2;
+    border-radius: 10px;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 4px;
+    position: absolute;
+    top:-1px;
+    
+
+}

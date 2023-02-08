@@ -1,0 +1,33 @@
+.nav-main
+{
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+.navbar
+{
+    background: radial-gradient(circle, #1e24d6 0%, #0f151b 100%);
+    ;
+}
+.options
+{
+    background-color: white;
+    padding:10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+select
+{
+    border-radius: 10px;
+    margin-right: 10px;
+}
+option:hover
+{
+   color: #1e24d6;
+}
+form label
+{
+    color: #1e24d6;
+    padding-right: 10px;
+}
