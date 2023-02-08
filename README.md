@@ -11,5 +11,5 @@
 </div>
 <br>
 <div>
- <h1>Get started:</h3>
+ <h3>Get started:</h3>
 </div>
